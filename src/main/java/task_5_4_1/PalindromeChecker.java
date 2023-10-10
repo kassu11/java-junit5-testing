@@ -17,7 +17,7 @@ public class PalindromeChecker {
         text = text.toLowerCase();
 
         String reversed = new StringBuilder(text).reverse().toString();
-        
+
         return text.equals(reversed);
     }
 }
